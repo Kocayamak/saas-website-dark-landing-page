@@ -29,7 +29,7 @@ export const CallToAction = () => {
           <input
             type="email"
             placeholder="email@gmail.com"
-            className="h-12 bg-white/20 rounded-lg font-medium px-5 placeholder:text-[#9CA3AF] flex-1"
+            className="h-12 bg-white/20 rounded-lg font-medium px-5 placeholder:text-[#9CA3AF] sm:flex-1"
           />
           <button className="bg-white text-black h-12 rounded-lg px-5">
             Erişim sağlayın
