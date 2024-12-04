@@ -7,24 +7,24 @@ import clsx from "clsx";
 
 const items = [
   {
-    question: "What payment methods do you accept?",
+    question: "Hangi ödeme yöntemlerini kabul ediyorsunuz?",
     answer:
-      "We accept all major credit cards, PayPal, and various other payment methods depending on your location. Please contact our support team for more information on accepted payment methods in your region.",
+      "Tüm büyük kredi kartlarını, PayPal'ı ve bulunduğunuz yere bağlı olarak çeşitli diğer ödeme yöntemlerini kabul ediyoruz. Bölgenizde kabul edilen ödeme yöntemleri hakkında daha fazla bilgi için lütfen destek ekibimizle iletişime geçin.",
   },
   {
-    question: "How does the pricing work for teams?",
+    question: "Ekipler için fiyatlandırma nasıl işliyor?",
     answer:
-      "Our pricing is per user, per month. This means you only pay for the number of team members you have on your account. Discounts are available for larger teams and annual subscriptions.",
+      "Fiyatlandırmamız kullanıcı başına, aylıktır. Bu, yalnızca hesabınızdaki ekip üyesi sayısı için ödeme yapacağınız anlamına gelir. Daha büyük ekipler ve yıllık abonelikler için indirimler mevcuttur.",
   },
   {
-    question: "Can I change my plan later?",
+    question: "Planımı daha sonra değiştirebilir miyim?",
     answer:
-      "Yes, you can upgrade or downgrade your plan at any time. Changes to your plan will be prorated and reflected in your next billing cycle.",
+      "Evet, planınızı istediğiniz zaman yükseltebilir veya düşürebilirsiniz. Planınızdaki değişiklikler orantılı olarak hesaplanacak ve bir sonraki fatura döneminize yansıtılacaktır.",
   },
   {
-    question: "Is my data secure?",
+    question: "Verilerim güvende mi?",
     answer:
-      "Security is our top priority. We use state-of-the-art encryption and comply with the best industry practices to ensure that your data is stored securely and accessed only by authorized users.",
+      "Güvenlik bizim en önemli önceliğimizdir. Verilerinizin güvenli bir şekilde saklanmasını ve yalnızca yetkili kullanıcılar tarafından erişilmesini sağlamak için son teknoloji şifreleme kullanıyor ve en iyi endüstri uygulamalarına uyuyoruz.",
   },
 ];
 
