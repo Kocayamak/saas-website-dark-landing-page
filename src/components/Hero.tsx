@@ -1,7 +1,10 @@
+"use client";
+
 import ArrowWIcon from "../assets/icons/arrow-w.svg";
 import cursorImage from "../assets/images/cursor.png";
 import messageImage from "../assets/images/message.png";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 export const Hero = () => {
   return (
@@ -29,22 +32,35 @@ export const Hero = () => {
             <h1 className="text-7xl sm:text-9xl font-bold tracking-tighter text-center inline-flex">
               Her Seferinde <br /> Bir Görev
             </h1>
-
-            <Image
-              src={cursorImage}
-              alt="Cursor Image"
-              height={200}
-              width={200}
+            <motion.div
               className="absolute right-[630px] top-[108px] hidden sm:inline"
-            />
+              drag
+              dragSnapToOrigin
+            >
+              <Image
+                src={cursorImage}
+                alt="Cursor Image"
+                height={200}
+                width={200}
+                className="max-w-none"
+                draggable="false"
+              />
+            </motion.div>
 
-            <Image
-              src={messageImage}
-              alt="Message Image"
-              height={200}
-              width={200}
+            <motion.div
               className="absolute top-[80px] left-[680px] hidden sm:inline"
-            />
+              drag
+              dragSnapToOrigin
+            >
+              <Image
+                src={messageImage}
+                alt="Message Image"
+                height={200}
+                width={200}
+                className="max-w-none"
+                draggable="false"
+              />
+            </motion.div>
           </div>
         </div>
 
