@@ -38,7 +38,7 @@ const AccordionItem = ({
   const [isOpen, setIsOpen] = useState<boolean>(false);
   return (
     <div
-      className="py-7 border-b border-white/30"
+      className="py-7 border-b border-white/30 cursor-pointer"
       onClick={() => setIsOpen(!isOpen)}
     >
       <div className="flex items-center">
