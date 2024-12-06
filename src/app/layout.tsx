@@ -1,4 +1,6 @@
+import React from "react";
 import type { Metadata } from "next";
+// eslint-disable-next-line camelcase
 import { DM_Sans } from "next/font/google";
 import clsx from "clsx";
 import "./globals.css";
